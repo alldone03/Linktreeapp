@@ -1,8 +1,11 @@
-
+import Head from "next/head"
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>AllDone - Linktree</title>
+      </Head>
       <div className="bg-gradient-to-b from-sky-500 to-blue-600 h-screen w-screen">
         <nav className="bg-transparent border-l-pink-700 px-2 sm:px-4 py-2.5 rounded  dark:bg-sky-500">
           <div className="container flex flex-wrap items-center justify-between mx-auto">
